@@ -457,11 +457,8 @@ game.Lighting.OutdoorAmbient = Color3.new(0,0,0)
 game.Lighting.TimeOfDay = "00:00:00"
 game.Lighting.FogColor = Color3.new(0,0,0)
 game.Lighting.FogEnd = 1000
-local ex = Instance.new("Explosion",game.Workspace)
-ex.Position = chara.Torso.Position
-ex.Visible = false
-ex.BlastRadius = 999999999999999999999999
-ex.BlastPressure = 9999999999999999999999999
+
+
 end)
 
 --Loop Function--
@@ -477,7 +474,7 @@ tecks.Text = "GIVEUP"
 elseif sel == 3 then
 tecks.Text = "BURNINHELL"
 end
-else tecks.Text = "John Doe"
+else tecks.Text = "John Doe BY EPICDUDE"
 end
 if chara.Humanoid.Health > 0 then
 chara.Humanoid.MaxHealth = math.huge
