@@ -331,7 +331,7 @@ soulst()
 end
 
 --Death of a Mortal--
-local o = n.Parent:FindFirstChild("Humanoid")
+local KillMortal = n.Parent:FindFirstChild("Humanoid")
         if o ~= nil then
             local p = game.Players:FindFirstChild(n.Parent.Name)
             for j = 1, 10 do
